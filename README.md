@@ -50,18 +50,18 @@ The outcome variable **Top_Seller_75** was engineered to classify games ranking 
 
 ## 📈 Key Findings
 
-- Global video game sales were heavily right-skewed — most games sold modestly while a few blockbusters dominated the market
+- Global video game sales were heavily right-skewed - most games sold modestly while a few blockbusters dominated the market
 - **Action** was the most common genre overall, but **Misc, Shooter, and Sports** titles were disproportionately represented among top sellers
 - Logistic regression achieved an AUC of **0.80**, providing a solid baseline
 - Tuned Random Forest improved performance significantly, pushing the **F1 score closer to 0.75**
-- Surprisingly, **user and critic engagement metrics** (User_Count, Critic_Score, Critic_Count) outranked genre, publisher, and platform as predictors — suggesting that reception matters more than category
+- Surprisingly, **user and critic engagement metrics** (User_Count, Critic_Score, Critic_Count) outranked genre, publisher, and platform as predictors -suggesting that reception matters more than category
 
 ---
 
 ## 📁 Repository Structure
 
 ```
-├── README.md                  # Project overview (you're here!)
+├── README.md                  # Project overview 
 ├── notebook/                  # Python analysis notebook
 └── report/                    # Full written report (PDF)
 ```
