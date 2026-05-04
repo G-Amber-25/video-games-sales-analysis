@@ -2,7 +2,7 @@
 
 A machine learning analysis predicting commercial success in the global video game market using sales data, critic scores, and platform metadata.
 
-> **Course:** ANA 630 – Advanced Analytic Applications | National University | May 2025
+> **Course:** ANA 630 - Advanced Analytic Applications | National University | May 2025
 
 ---
 
