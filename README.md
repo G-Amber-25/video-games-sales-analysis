@@ -14,11 +14,23 @@ Can we predict whether a video game will be a top seller based on pre-release an
 
 
 📊 Dataset
-DetailInfoSourceKaggle – Global Video Game Sales & RatingsOriginal Size16,719 entriesAfter Cleaning6,825 observationsKey FeaturesPlatform, genre, publisher, developer, critic/user scores, rating, year of releaseTarget VariableTop_Seller_75 (top 25% of global sales = 1, all others = 0)
+| Detail | Info |
+|---|---|
+| **Source** | Kaggle – Global Video Game Sales & Ratings |
+| **Original Size** | 16,719 entries |
+| **After Cleaning** | 6,825 observations |
+| **Key Features** | Platform, genre, publisher, developer, critic/user scores, rating, year of release |
+| **Target Variable** | Top_Seller_75 (top 25% of global sales = 1, all others = 0) |
 
-🛠️ Methods
-StepDetailData cleaningRemoved rows with missing values; no imputation appliedFeature engineeringEngineered binary top-seller outcome variableTrain/test split80/20Validation5-fold cross-validationModelsLogistic Regression, Random ForestTuningGridSearchCV (best params: max_depth=10, n_estimators=300)EvaluationAccuracy, precision, recall, F1, ROC-AUC, confusion matrix
-Tools: Python (pandas, scikit-learn, seaborn, matplotlib)
+| Step | Detail |
+|---|---|
+| Data cleaning | Removed rows with missing values; no imputation applied |
+| Feature engineering | Engineered binary top-seller outcome variable |
+| Train/test split | 80/20 |
+| Validation | 5-fold cross-validation |
+| Models | Logistic Regression, Random Forest |
+| Tuning | GridSearchCV (best params: max_depth=10, n_estimators=300) |
+| Evaluation | Accuracy, precision, recall, F1, ROC-AUC, confusion matrix |
 
 📈 Key Findings
 
@@ -27,7 +39,6 @@ Action was the most common genre overall (1,630 titles), but Misc, Shooter, and 
 Logistic regression achieved an AUC of 0.80, providing a solid baseline, though precision for identifying top sellers was approximately 0.50 with recall around 0.70, indicating the model caught real top sellers but also produced notable false positives.
 The tuned Random Forest improved performance substantially, achieving an F1 score of 0.69 for the top seller class and a weighted F1 of 0.84, with both precision and recall for top sellers reaching 0.69.
 Surprisingly, user and critic engagement metrics (User_Count, Critic_Score, Critic_Count) outranked genre, publisher, and platform as predictors, suggesting that reception matters more than category.
-
 
 📊 Visuals
 <img width="555" height="312" alt="video game histogram" src="https://github.com/user-attachments/assets/793bd195-d493-4795-ae81-17fa3d485f53" />
