@@ -1,5 +1,3 @@
-Here's your corrected README with visual placeholders called out:
-
 🎮 What Makes a Video Game a "Top-Seller"?
 A machine learning analysis predicting commercial success in the global video game market using sales data, critic scores, and platform metadata.
 
