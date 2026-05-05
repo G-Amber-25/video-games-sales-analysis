@@ -50,9 +50,10 @@ Surprisingly, user and critic engagement metrics (User_Count, Critic_Score, Crit
 
 ## 📁 Repository Structure
 ```
-├── README.md                  # Project overview
-├── notebook/                  # Python analysis notebook
-└── report/                    # Full written report (PDF)
+├── README.md                              # Project overview
+├── video_game_topseller_analysis.ipynb    # Python analysis notebook
+└── video_game_sales_analysis_report.pdf   # Full written report (PDF)
+
 ```
 
 🔗 Dataset available on Kaggle <https://www.kaggle.com/datasets/sidtwr/videogames-sales-dataset?select=Video_Games_Sales_as_at_22_Dec_2016.csv>
