@@ -4,16 +4,16 @@ A machine learning analysis predicting commercial success in the global video ga
 Course: ANA 630 - Advanced Analytic Applications | National University | May 2025
 
 
-# 📋 Project Overview
+## 📋 Project Overview
 The global video game industry generates hundreds of billions in annual revenue, yet many releases fail to achieve commercial success. This project investigates whether a predictive model can identify top-selling games using features available prior to or shortly after release, helping inform investment, marketing, and development decisions.
 The outcome variable Top_Seller_75 was engineered to classify games ranking in the top 25% of global sales.
 
-🔍 ##Research Question
+## 🔍 Research Question
 
 Can we predict whether a video game will be a top seller based on pre-release and early post-release features such as platform, genre, publisher, and critic/user engagement?
 
 
-# 📊 Dataset
+## 📊 Dataset
 | Detail | Info |
 |---|---|
 | **Source** | Kaggle – Global Video Game Sales & Ratings |
